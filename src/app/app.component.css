@@ -6,9 +6,9 @@
 }
 @font-face {
   font-family: 'Gotham-medium';
-  src: url('../assets/Gotham-medium.ttf') format('ttf'),
-       url('../assets/Gotham-medium.ttf') format('ttf'),
-       url('../assets/Gotham-medium.ttf') format('truetype');
+  src: url('../assets/Gotham-Medium.ttf') format('ttf'),
+       url('../assets/Gotham-Medium.ttf') format('ttf'),
+       url('../assets/Gotham-Medium.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Gotham-Light';
