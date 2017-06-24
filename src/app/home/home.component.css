@@ -1,6 +1,6 @@
 
 #header{
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: 'Gotham-medium';
     color:#294369;
     margin-bottom: -16vw;
@@ -12,7 +12,7 @@
     width: 100%;
 }
 #productHeader{
-    font-size: 1.5vw;
+    font-size: 2vw;
     font-family: 'Gotham-Light';
     background-color: #6c5a4b;
     color:white;
@@ -56,30 +56,32 @@
 
 #setUsApart{
     z-index: 0;
-    margin-top: -25px;
     background-color: #c9c9c9; 
 }
 #setUsApartName{
-    padding-top:5vw;
+    padding-top:3vw;
     font-size: 5vw;
     font-family: 'Gotham-Light';
     color:#294369;
 }
 #setUsApartHeader{
     margin-top: -1vw;
-    font-size: 4vw;
+    font-size: 3vw;
     font-family: 'Gotham-Light';
 
 }
 #setUsApartParagraph{
     font-family: 'Gotham-medium';
-    line-height: 150%;
+    line-height: 2.5vw;
     font-size: 1.5vw;
     padding: 2vw;
+    padding-top: 2.5vw;
+    margin-bottom: 1.5vw;
 }
+
 #setUsApartImage  img{
     padding: none;
-    margin-right: -30px;
+    margin-right: -60px;
     max-width: 109%;
 }
 
