@@ -4,12 +4,12 @@
        url('../assets/Gotham-Bold.ttf') format('ttf'),
        url('../assets/Gotham-Bold.ttf') format('truetype');
 }
-/*@font-face {
+@font-face {
   font-family: 'Gotham-medium';
   src: url('../assets/Gotham-medium.ttf') format('ttf'),
        url('../assets/Gotham-medium.ttf') format('ttf'),
        url('../assets/Gotham-medium.ttf') format('truetype');
-}*/
+}
 @font-face {
   font-family: 'Gotham-Light';
   src: url('../assets/Gotham-Light.ttf') format('ttf'),
