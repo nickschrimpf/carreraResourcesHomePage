@@ -1,0 +1,130 @@
+<div class="Container">
+
+    <div id="header" class="col-md-12 text-center col-xs-12">
+        <h1>Real Estate Consulting</h1>
+        <h1> & Capitol Advisory</h1>
+    </div>
+        <div id="headerImage" alt="Responsive image" class="img-fluid">
+            <img  src="assets/building1.jpg">
+        </div>
+    
+    
+    
+<div id="productHeader" class="col-md-12 col-xs-12">
+    <div class="Row">
+        
+        <div id="productLink" (mousedown)='activeTab = 1' class="col-md-3 text-center col-xs-3">
+            <span [ngClass]="{activeTab:activeTab === 1, nonActiveTab:activeTab != 1 && activeTab != null}" >Bridge Loans</span>
+        </div>
+        <div id="productLink" (mousedown)='activeTab = 2' class="col-md-3 text-center col-xs-3">
+            <span [ngClass]="{activeTab:activeTab === 2, nonActiveTab:activeTab != 2 && activeTab != null}" >Small Balance Loans</span>
+        </div>
+        <div id="productLink" (mousedown)='activeTab = 3' class="col-md-3 text-center col-xs-3">
+            <span [ngClass]="{activeTab:activeTab === 3, nonActiveTab:activeTab != 3 && activeTab != null}"  >Structured Commercial Products</span>
+        </div>
+        <div id="productLink" (mousedown)='activeTab = 4' class="col-md-3 text-center col-xs-3">
+            <span [ngClass]="{activeTab:activeTab === 4, nonActiveTab:activeTab != 4 && activeTab != null}" >DIP Financing</span>
+        </div>
+
+        <div id="productTab" *ngIf='activeTab === 1' class="col-md-12 col-xs-12">
+            <div class="col-md-12 col-xs-12">
+                    <p>Bridge loans provide interim financing to allow investors and owners the flexibility to overcome credit or liquidity constraints and complete projects that don’t meet typical lending parameters or timelines.  These short-term loans range from $1M to $10M+ and are well suited for:</p>
+            </div>
+            <div class="col-md-12 col-xs-12">
+                <ul>
+                <div class="col-md-4 col-xs-4">
+                    <li>Renovating or rehabilitating a property</li>
+                    <li>Repositioning an asset</li>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <li>Balloon note payoff</li>
+                    <li>Short-fuse acquisitions</li>
+                    
+                </div>
+                <div class="col-md-4 col-xs-4">
+                    <li>Offset cash flow gaps during lease up</li>
+                    <li>Partner buy-out</li>
+                    <li>Recapitalization</li>
+                </div>
+            </ul>
+                
+            </div>
+            <div id="productTab" class="col-md-12 col-xs-12">
+                <p>Bridge loans are faster and easier to obtain, but the short-term nature and higher risk mean they are more expensive than traditional bank financing.  In many situations, a bridge loan may be the only option that meets immediate project needs and the higher interest rates and origination points are justified by the time constraints and value-add proposition of the deal.</p>
+                
+            </div>
+
+           
+                
+            
+        </div>
+        <div id="productTab" *ngIf='activeTab === 2' class="col-md-12 col-xs-12">
+            <p>Small balance loans ($250,000 - $2,000,000) represent an underserved niche within the commercial lending arena.  Often located in secondary or tertiary markets and requiring some type of special consideration, these projects don’t fit into traditional lenders’ guidelines.</p>
+
+            <p>Carrera Resources, Inc can provide non-bank small balance loans in most US markets.  It’s fast and simple with competitive rates and a common sense approach to underwriting based on:
+            The property quality and location
+            The property’s operating history and cash-flow
+            The borrower's experience and financial strength</p>
+            ​
+            <p>Purchase, refinance, and cash-out refinance loans are available for multifamily, mixed-use, office, retail, self-storage, light industrial, mobile home parks, and automotive properties.</p>
+            ​
+        </div>
+        <div id="productTab" *ngIf='activeTab === 3' class="col-md-12 col-xs-12">
+            <header>Commercial Real Estate Finance</header>
+            <p>We arrange structured products including debt, equity, preferred equity, and mezzanine capital.  We specialize in joint venture equity for improved property and land development projects for sponsors and operators that cannot readily access capital from traditional banking sources.  Our clients include investors who are looking for debt and/or equity for acquiring commercial real estate, or sponsors who are seeking to repurchase their loans and/or recapitalize/restructure their existing assets. </p>
+            <header>Capital Formation & Introduction for real estate transactions</header>
+            <p>Our company has proven ability to structure simple and complex transactions for sponsors both at the fund level and at the individual asset level across the capital spectrum to minimize dilution and optimize the capital structure.  Often these solutions involve a hybrid of debt and equity.  Using our distribution capabilities, we target a specific group of investors – either retail or institutional – and organize meetings that can effectively maximize our sponsor’s time.</p>
+        </div>
+        <div id="productTab" *ngIf='activeTab === 4' class="col-md-12 col-xs-12">
+            <header>Debtor-in-Possession Financing</header>
+                <p>Carrera Resources, Inc can provide unique structured funding solutions for real estate owners and operators who are facing interim balance sheet issues. </p>
+                 
+                <p>Debtor in possession (DIP) financing is a special form of financing granted to companies in financial trouble. Usually these companies are in a Chapter 11 bankruptcy.  The unique feature of a DIP loan is that the bankruptcy court usually grants a super-priority status to the new loan. This means that the new loan gets to jump in front of any mezzanine financing and any senior mortgages in the debt stack.</p>
+        </div>
+    </div>
+</div>
+<div id="setUsApart" class="col-md-12 col-xs-12">     
+    <div  class="col-md-7 col-xs-7 col-xs-offset-1 col-md-offset-1">
+                <h1 id="setUsApartName">Carrera Resources</h1>
+                <div class="col-md-11 col-md-offset-1 col-xs-11 col-xs-offset-1">
+                    <h2 id="setUsApartHeader">What Sets Us Apart</h2>
+                </div>            
+                <p id="setUsApartParagraph">We are a professional investment company dedicated to solving small balance and mid-market commercial real estate funding problems by providing unique individualized solutions not found elsewhere in the market. Our knowledge of commercial funding, proven success in managing critical projects, and extensive network of capital resources, and investors with difficult time-sensitive situations.</p>   
+    </div>
+        <div id="setUsApartImage" class="col-md-4 col-xs-4">
+            <img src="assets/Building2.jpg">
+        </div> 
+    </div>
+
+<div id="quote" class="col-md-12 text-center col-xs-12">
+    <p>"Unlike typical mortgage brokers, we don't just refer you to a lender; we work closely with our clients throughout the <u>entire</u> funding process to help you!"</p>
+</div>
+
+<div class="col-md-12 col-xs-12">
+    
+    <div id="handShake" class="col-md-5 col-xs-5">
+        <img src="assets/handshake.jpg">
+    </div>
+            <div class="col-md-7 col-xs-7">
+                <h1 id="togetherWeCanHeader">Together We Can</h1>
+                <ul id="togetherWeList">
+                    <li>Accurately assess property performance and value</li>
+                    <li>Understand the factors that influence valuation and funding options</li>
+                    <li>Identify appropriate debt and equity funding options</li>
+                    <li>Prepare and submit funding documents</li>
+                    <li>Develop a forward looking plan designed to mitigate future risk</li>
+                    <li>Identify and engage additional subject matter experts when needed</li>
+                    <li>Manage the constantly evolving array of project communicatons and deliverables</li>
+                </ul>
+            </div>
+</div>
+
+<div id="ourPhilosophy" class="col-md-12 col-xs-12 text-center">
+    <div id="ourPhilosophyHeader" class="col-md-12 col-xs-12">
+        <h1>Our Philosophy</h1>
+    </div>
+    <p id="ourPhilosophyParagraph">First we listen; then we ask questions. we won't propose a solution until we understand the problem. We recognize that our business is not simply properties and numbers, and it's not about cookie cutter transactions. its about people, and it's about finding the best possible solutions for your situation. </p>
+    <p>Our Success is driven by results; not just action!</p>
+</div>
+
+</div>

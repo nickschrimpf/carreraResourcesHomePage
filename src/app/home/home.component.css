@@ -1,0 +1,125 @@
+
+#header{
+    font-size: 1.5vw;
+    font-family: 'Gotham-medium';
+    color:#294369;
+    margin-bottom: -16vw;
+    text-shadow: #CCC 1px 0 10px;;
+    
+}
+#headerImage img{
+    max-height: 525px;
+    width: 100%;
+}
+#productHeader{
+    font-size: 1.5vw;
+    font-family: 'Gotham-Light';
+    background-color: #6c5a4b;
+    color:white;
+    padding-bottom: 5%;
+    z-index: 1;
+}
+#productLink:hover{
+    
+    cursor: pointer;
+}
+#productLink{
+    padding: 2%;
+
+}
+
+.activeTab{
+    font-family: 'Gotham-Bold';
+    font-size: 1.25em;
+    
+    
+}
+.nonActiveTab{
+    color:#c9c9c9;
+    font-size:-2em;
+    opacity: 5%; 
+}
+
+#productTab{
+    padding: 1%;
+    line-height: 125%;
+
+}
+#productTab header{
+    font-family: 'Gotham-medium';
+    padding: 2%;
+}
+#productTab li{
+    font-family: 'Gotham-medium';
+    line-height: 150%;
+}
+
+#setUsApart{
+    z-index: 0;
+    margin-top: -25px;
+    background-color: #c9c9c9; 
+}
+#setUsApartName{
+    padding-top:5vw;
+    font-size: 5vw;
+    font-family: 'Gotham-Light';
+    color:#294369;
+}
+#setUsApartHeader{
+    margin-top: -1vw;
+    font-size: 4vw;
+    font-family: 'Gotham-Light';
+
+}
+#setUsApartParagraph{
+    font-family: 'Gotham-medium';
+    line-height: 150%;
+    font-size: 1.5vw;
+    padding: 2vw;
+}
+#setUsApartImage  img{
+    padding: none;
+    margin-right: -30px;
+    max-width: 109%;
+}
+
+#quote{
+    margin-top: -20px;
+    font-family: 'Gotham-Bold';
+    background-color: #122d44;
+    color:white;
+    padding: 3%;
+    font-size: 1.5vw;
+    letter-spacing: 2px;
+}
+#handShake img{
+    margin-left: -30px;
+    width: 100%;
+    height: auto;
+}
+
+#togetherWeCanHeader{
+    font-family: 'Gotham-Light';
+    font-size: 4vw;
+    margin-top: 2vw;
+
+}
+#togetherWeList{
+    font-family: 'Gotham-medium';
+    font-size: 1.45vw;
+    line-height: 145%;
+}
+
+#ourPhilosophy{
+    font-family: 'Gotham-Light';
+    background-color: #122d44;
+    color:white;
+    padding: 3%;
+    font-size:2vw;
+}
+
+#ourPhilosophyHeader{
+    font-size: 3vw;
+    padding: 2vw;
+}
+

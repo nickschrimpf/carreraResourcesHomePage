@@ -1,0 +1,18 @@
+#scheduleACall{
+    background-color:#122d44;
+    color: white; 
+}
+ header{
+    font-family: 'Gotham-Light';
+    font-size: 5vh;
+
+}
+#scheduleACall a{
+    font-family: 'Gotham-Medium';
+    text-decoration-style: none;
+    color:white;
+    font-size: 3vh;
+}
+#scheduleACallImage img{
+    margin-left: -30px;
+}

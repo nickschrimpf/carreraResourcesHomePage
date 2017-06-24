@@ -1,0 +1,40 @@
+
+header {
+    font-size: 2vw;
+    font-family: 'Gotham-Light';
+    padding: 1vw;
+}
+
+#ourMission {
+    background-color: #6c5a4b ;
+    font-family: 'Gotham-Light';
+    font-size: 1.5vw;
+    color: white;
+    padding-bottom: 2vh;
+}
+#aboutUs {
+    font-family: 'Gotham-Medium';
+    font-size:2vw;
+    background-color:#c9c9c9;
+}
+#aboutUsParagraph{
+    padding-top: 4vh;
+}
+
+#aboutUs  img {
+    margin-left: -30px;
+    width: 100%;
+}
+#ourServices{
+    background-color: #122d44 ;
+    color:white;
+    font-family: 'Gotham-Light';
+    font-size: 1.5vw;
+}
+
+#ourServices li{
+    list-style-type: none;
+    font-size: 1.5vw;
+    font-family: 'Gotham-Medium';
+    padding: 1.5vh;
+}
